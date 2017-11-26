@@ -1,0 +1,42 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot",
+    "build": " webpack --progress --hide-modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.10.1",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "swiper": "^3.4.2"
+  }
+}

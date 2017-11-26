@@ -1,0 +1,12 @@
+#film{
+	ul.filmheader{
+		display: flex;
+		li{
+			flex:1;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			list-style: none;
+		}
+	}
+}
